@@ -1,0 +1,18 @@
+TODO: Write a shell or console script that does the following:
+  
+  TODO: Test Cases
+    Selects a random number (test cases) from 1-10 and outputs that number in line 1
+    Test cases can initially be the number 1
+    Uses the number from line 1 to create test cases with the following parameters
+  
+  TODO: Number of stalls and number of cows
+    Two random numbers in the next line, with a space in between
+    The number located at position 0 represents the number of stalls 
+      3 <= n <= 1,000,000,000
+    The number located at position 2 represents the number of cows 
+      2 <= c <= n
+    Number at position 2 is greater then or equal to the number 2 and less then the number at position 0
+    
+  TODO: Location of stalls
+    The next line will return a random number between 1 and 1,000,000,000
+    This will be repeated n times (number of stalls)

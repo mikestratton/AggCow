@@ -1,0 +1,85 @@
+https://www.spoj.com/problems/AGGRCOW/
+
+#binary-search
+Farmer John has built a new long barn, with N (2 <= N <= 100,000) stalls. The stalls are located along a straight line at positions x1,...,xN (0 <= xi <= 1,000,000,000).
+
+His C (2 <= C <= N) cows don't like this barn layout and become aggressive towards each other once put into a stall. To prevent the cows from hurting each other, FJ wants to assign the cows to the stalls, such that the minimum distance between any two of them is as large as possible. What is the largest minimum distance?
+Input
+t – the number of test cases, then t test cases follows.
+* Line 1: Two space-separated integers: N and C
+* Lines 2..N+1: Line i+1 contains an integer stall location, xi
+Output
+For each test case output one integer: the largest minimum distance.
+
+************************************
+
+Example 1
+
+Input:
+1
+5 3
+1
+2
+8
+4
+9
+
+Output:
+3
+
+Output details:
+FJ can put his 3 cows in the stalls at positions 1, 4 and 8,
+resulting in a minimum distance of 3.
+
+************************************
+
+Example 2
+Input:
+1
+4 3
+1
+2
+4
+5
+
+Output: 1
+
+Output Details:
+FJ can put his 3 cows into stalls at positions [1,2 and 5] OR [1,4 and 5],
+resulting in a minimum distance of 1
+
+************************************
+
+Example 3
+Input:
+1
+6, 4
+1
+8
+23
+119
+122
+999
+
+Output: 15
+
+Output Details:
+FJ can put his 4 cows in the stalls at positions 8, 23, 122, and 999
+resulting in a minimum distance of 15.
+
+************************************
+
+Example 4
+Input:
+3
+4, 2
+1
+8
+41
+29
+
+Output: 15
+
+Output Details:
+FJ can put his 4 cows in the stalls at positions 8, 23, 122, and 999
+resulting in a minimum distance of 15.
