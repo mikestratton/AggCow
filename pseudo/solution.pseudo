@@ -1,0 +1,20 @@
+TODO: Write a program that solves the problem statement for Agressive Cows
+
+  TODO: Store Values from Shell/Console Input
+    Variable integer t stores the input from line 1 and represents the number of test cases
+    Variable integer n stores the input from line 2 position 0 and represents the number of stalls
+    Variable integer c stores the input from line 2 position 2 and represents the number of cows
+
+  TODO: Store values from line 3 to line n
+    Variable array stalls
+    method StallLocations( stalls ){
+      for(i=0; i<n; i++){
+        append array stalls[] with number
+      }
+    }
+    sort values in stalls in ascending order
+
+    TODO: Binary Search to find the greatest mininum distance between two stalls
+      https://www.youtube.com/watch?v=SiE1XFhYoaA
+      variable int high represents the last index location in the stalls array
+      variable int low represents the first index location in the stalls array stalls[0]
