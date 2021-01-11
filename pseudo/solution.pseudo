@@ -14,7 +14,8 @@ TODO: Write a program that solves the problem statement for Agressive Cows
     }
     sort values in stalls in ascending order
 
-    TODO: Binary Search to find the greatest mininum distance between two stalls
-      https://www.youtube.com/watch?v=SiE1XFhYoaA
-      variable int high represents the last index location in the stalls array
-      variable int low represents the first index location in the stalls array stalls[0]
+  TODO: Binary Search to find the greatest mininum distance between two stalls
+    https://www.youtube.com/watch?v=SiE1XFhYoaA
+    C++ solution: https://gist.github.com/SuryaPratapK/e48296a8d6c207cf258098bf05f1c065
+    
+    
